@@ -1,7 +1,6 @@
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-LOG_FILE_PATH = BASE_DIR / "data" / "weather_logs.json"
+LOG_FILE_PATH = Path("..") / "data" / "weather_logs.json"
 
 DEFAULT_LATITUDE = 38.4127
 DEFAULT_LONGITUDE = 27.1384
